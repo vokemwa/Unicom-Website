@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unicomspace International | Global Tech & Infrastructure Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        unicom: {
+                            50: '#f0f9fa',
+                            100: '#dcf0f2',
+                            600: '#0b7c8a', // Core Teal
+                            700: '#085d69', 
+                            800: '#074d57',
+                            900: '#0a363d', // Deep Teal Background
+                            accent: '#e07a2c' // Logo Orange Accent
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased">
+
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm">
+        <div class="max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto flex justify-between items-center h-24">
+            <a href="#home" class="flex items-center space-x-3">
+                <img src="Images/UnicomLogo.png" alt="Unicomspace International Logo" class="h-16 w-auto object-contain" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                <span class="hidden text-xl font-extrabold tracking-tight text-unicom-900 uppercase">Unicom<span class="text-unicom-600">space</span></span>
+            </a>
+            
+            <nav class="hidden md:flex space-x-8 font-semibold text-gray-600">
+                <a href="#home" class="hover:text-unicom-600 transition-colors">Home</a>
+                <a href="#services" class="hover:text-unicom-600 transition-colors">Services</a>
+                <a href="#portfolio" class="hover:text-unicom-600 transition-colors">Global Network</a>
+                <a href="#about" class="hover:text-unicom-600 transition-colors">About</a>
+            </nav>
+            <div class="hidden md:block">
+                <a href="#contact" class="bg-unicom-600 text-white px-6 py-3 rounded-xl font-semibold hover:bg-unicom-700 transition-all shadow-md shadow-unicom-600/10">Connect Internationally</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="relative overflow-hidden bg-gradient-to-b from-unicom-50 via-white to-white pt-16 pb-24 lg:pt-24 lg:pb-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6 max-w-xl">
+                <div class="inline-flex items-center space-x-2 bg-unicom-100 text-unicom-700 px-4 py-1.5 rounded-full text-xs font-bold tracking-wider uppercase">
+                    <span class="flex h-2 w-2 rounded-full bg-unicom-accent animate-ping mr-1"></span>
+                    Global Digital Infrastructure
+                </div>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-unicom-900 leading-tight">
+                    Connecting systems. <br>Expanding horizons.
+                </h1>
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    Unicomspace International engineers hyper-scalable network ecosystems, premium web communications architectures, and enterprise technology solutions for the global landscape.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                    <a href="#contact" class="bg-unicom-600 text-white text-center px-8 py-4 rounded-xl font-semibold shadow-lg shadow-unicom-600/20 hover:bg-unicom-700 hover:shadow-xl transition-all">Launch Your Project</a>
+                    <a href="#services" class="bg-white border border-gray-200 text-gray-700 text-center px-8 py-4 rounded-xl font-semibold hover:bg-gray-50 transition-all">Our Capabilities</a>
+                </div>
+            </div>
+            <div class="relative flex justify-center lg:justify-end">
+                <div class="w-full max-w-md aspect-square bg-gradient-to-tr from-unicom-900 via-unicom-800 to-unicom-600 rounded-3xl p-12 text-white flex flex-col justify-between shadow-2xl relative overflow-hidden">
+                    <div class="absolute -bottom-10 -left-10 w-40 h-40 bg-unicom-accent rounded-full mix-blend-screen filter blur-2xl opacity-20"></div>
+                    
+                    <div class="flex justify-between items-start">
+                        <div class="space-y-2">
+                            <div class="w-16 h-1 bg-unicom-accent rounded"></div>
+                            <div class="w-8 h-1 bg-white/40 rounded"></div>
+                        </div>
+                        <span class="text-xs font-mono tracking-widest text-white/60 uppercase">HQ // Global Hub</span>
+                    </div>
+
+                    <div class="my-auto py-6 border-l-2 border-unicom-accent/40 pl-6">
+                        <p class="text-2xl font-light tracking-wide text-unicom-100">Unified Global Communications & Tech Spaces</p>
+                    </div>
+
+                    <div class="space-y-1">
+                        <div class="text-4xl font-black font-mono tracking-tight text-white flex items-center gap-2">
+                            <span>Active</span>
+                            <span class="text-unicom-accent">&rarr;</span>
+                        </div>
+                        <p class="text-white/70 text-xs tracking-wider uppercase">Enterprise Class Web Operations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-unicom-900 text-white py-16 border-t-4 border-unicom-accent">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-2 md:grid-cols-4 gap-10 text-center">
+            <div>
+                <div class="text-5xl font-black text-white tracking-tight">Global</div>
+                <div class="text-unicom-100/70 text-xs font-bold uppercase tracking-widest mt-2">Scale Architecture</div>
+            </div>
+            <div>
+                <div class="text-5xl font-black text-unicom-accent tracking-tight">24/7</div>
+                <div class="text-unicom-100/70 text-xs font-bold uppercase tracking-widest mt-2">Network Monitoring</div>
+            </div>
+            <div>
+                <div class="text-5xl font-black text-white tracking-tight">100%</div>
+                <div class="text-unicom-100/70 text-xs font-bold uppercase tracking-widest mt-2">Tailored Implementations</div>
+            </div>
+            <div>
+                <div class="text-5xl font-black text-unicom-accent tracking-tight">Secure</div>
+                <div class="text-unicom-100/70 text-xs font-bold uppercase tracking-widest mt-2">Enterprise Protocols</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-20">
+                <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-unicom-900">Our International Framework</h2>
+                <div class="w-16 h-1 bg-unicom-accent mx-auto rounded"></div>
+                <p class="text-lg text-gray-600">Providing cross-border entities with superior technological capabilities, premium custom portals, and elite system integration.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="p-8 border border-gray-100 rounded-2xl bg-gray-50 hover:bg-white hover:shadow-xl hover:border-unicom-100 transition-all group relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-unicom-600 opacity-0 group-hover:opacity-100 transition-all"></div>
+                    <div class="w-12 h-12 bg-unicom-100 text-unicom-700 rounded-xl flex items-center justify-center font-bold text-lg mb-6 group-hover:bg-unicom-600 group-hover:text-white transition-all">01</div>
+                    <h3 class="text-xl font-bold text-unicom-900 mb-3">Enterprise Web Architecture</h3>
+                    <p class="text-gray-600 leading-relaxed">High-performance custom web ecosystems optimized for global speed, compliance, and flawless multi-device responsiveness.</p>
+                </div>
+                <div class="p-8 border border-gray-100 rounded-2xl bg-gray-50 hover:bg-white hover:shadow-xl hover:border-unicom-100 transition-all group relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-unicom-accent opacity-0 group-hover:opacity-100 transition-all"></div>
+                    <div class="w-12 h-12 bg-unicom-100 text-unicom-700 rounded-xl flex items-center justify-center font-bold text-lg mb-6 group-hover:bg-unicom-accent group-hover:text-white transition-all">02</div>
+                    <h3 class="text-xl font-bold text-unicom-900 mb-3">Global E-Commerce Hubs</h3>
+                    <p class="text-gray-600 leading-relaxed">Secure transaction management pipelines deployed globally with multi-currency configurations and seamless logistics API connections.</p>
+                </div>
+                <div class="p-8 border border-gray-100 rounded-2xl bg-gray-50 hover:bg-white hover:shadow-xl hover:border-unicom-100 transition-all group relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-unicom-900 opacity-0 group-hover:opacity-100 transition-all"></div>
+                    <div class="w-12 h-12 bg-unicom-100 text-unicom-700 rounded-xl flex items-center justify-center font-bold text-lg mb-6 group-hover:bg-unicom-900 group-hover:text-white transition-all">03</div>
+                    <h3 class="text-xl font-bold text-unicom-900 mb-3">System Interconnection</h3>
+                    <p class="text-gray-600 leading-relaxed">Just like the network paths on our global emblem, we interconnect cloud infrastructures, custom software setups, and database spaces.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-4">
+                <div class="space-y-2">
+                    <h2 class="text-3xl font-bold text-unicom-900 tracking-tight">Deployments & Global Spaces</h2>
+                    <p class="text-gray-600">Explore premium setups deployed under Unicomspace International supervision.</p>
+                </div>
+                <div>
+                    <a href="#" class="text-unicom-600 font-bold hover:text-unicom-700 inline-flex items-center gap-1 group">
+                        Explore Full Global Portfolio 
+                        <span class="group-hover:translate-x-1 transition-transform">&rarr;</span>
+                    </a>
+                </div>
+            </div>
+            <div class="grid sm:grid-cols-2 gap-8">
+                <div class="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm group hover:shadow-md transition-all">
+                    <div class="h-64 bg-unicom-900/10 group-hover:bg-unicom-900/20 transition-all duration-300 flex items-center justify-center text-unicom-700 font-medium">
+                        [International Web Platform Mockup]
+                    </div>
+                    <div class="p-6 border-t border-gray-50">
+                        <span class="text-xs font-bold text-unicom-accent uppercase tracking-widest">Web Ecosystem</span>
+                        <h3 class="text-xl font-bold text-unicom-900 mt-1">Enterprise Cloud Interface</h3>
+                    </div>
+                </div>
+                <div class="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm group hover:shadow-md transition-all">
+                    <div class="h-64 bg-unicom-900/10 group-hover:bg-unicom-900/20 transition-all duration-300 flex items-center justify-center text-unicom-700 font-medium">
+                        [Cross-Border Commerce Application]
+                    </div>
+                    <div class="p-6 border-t border-gray-50">
+                        <span class="text-xs font-bold text-unicom-600 uppercase tracking-widest">Global Logistics</span>
+                        <h3 class="text-xl font-bold text-unicom-900 mt-1">Automated Storefront Pipeline</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-br from-unicom-50 to-white rounded-3xl p-8 sm:p-12 border border-unicom-100 shadow-xl relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-unicom-accent/5 rounded-full filter blur-xl"></div>
+                
+                <div class="text-center max-w-xl mx-auto space-y-3 mb-10">
+                    <h2 class="text-3xl font-extrabold text-unicom-900 tracking-tight">Initiate Global Scoping</h2>
+                    <p class="text-gray-600">Provide details on your desired software, timeline, or infrastructural criteria. Our international consultants will compile a comprehensive roadmap.</p>
+                </div>
+                <form action="#" method="POST" class="space-y-6 relative z-10">
+                    <div class="grid sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-sm font-semibold text-unicom-900 mb-2">Corporate Entity / Full Name</label>
+                            <input type="text" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-unicom-600 focus:border-transparent transition-all bg-white">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-semibold text-unicom-900 mb-2">Official Email Address</label>
+                            <input type="email" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-unicom-600 focus:border-transparent transition-all bg-white">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-unicom-900 mb-2">Project Architecture & Scope Requirements</label>
+                        <textarea rows="4" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-unicom-600 focus:border-transparent transition-all bg-white" placeholder="Outline technical goals (e.g., Enterprise Web Portal, High-Volume E-Commerce Platform, Cloud Strategy...)"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="w-full bg-unicom-600 text-white font-bold py-4 rounded-xl shadow-lg shadow-unicom-600/20 hover:bg-unicom-700 hover:shadow-xl transition-all tracking-wide uppercase text-sm">Submit To Operations Board</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-unicom-900 text-gray-400 py-12 border-t-2 border-unicom-accent">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="flex items-center space-x-3">
+                <img src="YOUR_IMAGE_PATH_HERE/UnicomLogo.png" alt="Unicomspace Logo" class="h-10 w-auto brightness-0 invert" onerror="this.style.display='none'">
+                <span class="text-white text-md font-bold tracking-widest uppercase">Unicomspace <span class="text-unicom-accent">International</span></span>
+            </div>
+            <p class="text-xs text-gray-400 text-center md:text-right">&copy; 2026 Unicomspace International. Systems Engineered Professionally. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
